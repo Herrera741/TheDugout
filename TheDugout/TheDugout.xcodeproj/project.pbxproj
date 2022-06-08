@@ -14,6 +14,9 @@
 		B417AC9928505AF50007FE8B /* TheDugoutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417AC9828505AF50007FE8B /* TheDugoutTests.swift */; };
 		B417ACA328505AF50007FE8B /* TheDugoutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACA228505AF50007FE8B /* TheDugoutUITests.swift */; };
 		B417ACA528505AF50007FE8B /* TheDugoutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACA428505AF50007FE8B /* TheDugoutUITestsLaunchTests.swift */; };
+		B417ACB52850715E0007FE8B /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACB42850715E0007FE8B /* LoginView.swift */; };
+		B417ACB9285071F10007FE8B /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACB8285071F10007FE8B /* SignupView.swift */; };
+		B417ACBB285072AD0007FE8B /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACBA285072AD0007FE8B /* BackgroundGradientView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +47,9 @@
 		B417AC9E28505AF50007FE8B /* TheDugoutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TheDugoutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B417ACA228505AF50007FE8B /* TheDugoutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDugoutUITests.swift; sourceTree = "<group>"; };
 		B417ACA428505AF50007FE8B /* TheDugoutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TheDugoutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B417ACB42850715E0007FE8B /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		B417ACB8285071F10007FE8B /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
+		B417ACBA285072AD0007FE8B /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +100,10 @@
 		B417AC8628505AF20007FE8B /* TheDugout */ = {
 			isa = PBXGroup;
 			children = (
+				B417ACB3285071100007FE8B /* Model */,
+				B417ACB2285071080007FE8B /* ViewModel */,
+				B417ACB1285071010007FE8B /* View */,
 				B417AC8728505AF20007FE8B /* TheDugoutApp.swift */,
-				B417AC8928505AF20007FE8B /* ContentView.swift */,
 				B417AC8B28505AF50007FE8B /* Assets.xcassets */,
 				B417AC8D28505AF50007FE8B /* Preview Content */,
 			);
@@ -125,6 +133,47 @@
 				B417ACA428505AF50007FE8B /* TheDugoutUITestsLaunchTests.swift */,
 			);
 			path = TheDugoutUITests;
+			sourceTree = "<group>";
+		};
+		B417ACB1285071010007FE8B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B417ACB62850719F0007FE8B /* Utils */,
+				B417ACB7285071B80007FE8B /* Authentication */,
+				B417AC8928505AF20007FE8B /* ContentView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B417ACB2285071080007FE8B /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		B417ACB3285071100007FE8B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B417ACB62850719F0007FE8B /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B417ACBA285072AD0007FE8B /* BackgroundGradientView.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B417ACB7285071B80007FE8B /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				B417ACB42850715E0007FE8B /* LoginView.swift */,
+				B417ACB8285071F10007FE8B /* SignupView.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +306,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B417ACB9285071F10007FE8B /* SignupView.swift in Sources */,
+				B417ACB52850715E0007FE8B /* LoginView.swift in Sources */,
 				B417AC8A28505AF20007FE8B /* ContentView.swift in Sources */,
+				B417ACBB285072AD0007FE8B /* BackgroundGradientView.swift in Sources */,
 				B417AC8828505AF20007FE8B /* TheDugoutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
