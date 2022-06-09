@@ -28,6 +28,29 @@ struct LoginView: View {
                 } // end VStack
                 .padding(.horizontal, 32)
                 
+                HStack {
+                    Spacer()
+                    
+                    Button {
+                        // forgot password action
+                    } label: {
+                        Text("Forgot Password")
+                            .foregroundColor(.white)
+                            .font(.system(size: 15, weight: .semibold))
+                            .padding(.top)
+                            .padding(.trailing, 30)
+                    }
+                } // end HStack
+                
+                Button {
+                    // signin action
+                } label: {
+                    AuthenticateButtonView(text: "Sign In")
+                        .padding()
+                }
+
+                Spacer()
+                
             } // end VStack
             
         } // end ZStack
