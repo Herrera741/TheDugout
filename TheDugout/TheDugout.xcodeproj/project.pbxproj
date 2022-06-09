@@ -23,6 +23,7 @@
 		B417ACC42850F15F0007FE8B /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACC32850F15F0007FE8B /* CustomSecureField.swift */; };
 		B417ACC62851A5630007FE8B /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACC52851A5620007FE8B /* PasswordSecureField.swift */; };
 		B417ACCA2851A9C20007FE8B /* AuthenticateButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACC92851A9C20007FE8B /* AuthenticateButtonView.swift */; };
+		B417ACCD2851C28D0007FE8B /* UserTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACCC2851C28D0007FE8B /* UserTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +63,7 @@
 		B417ACC32850F15F0007FE8B /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
 		B417ACC52851A5620007FE8B /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 		B417ACC92851A9C20007FE8B /* AuthenticateButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticateButtonView.swift; sourceTree = "<group>"; };
+		B417ACCC2851C28D0007FE8B /* UserTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -198,6 +200,7 @@
 				B417ACC12850EDEA0007FE8B /* EmailTextField.swift */,
 				B417ACC32850F15F0007FE8B /* CustomSecureField.swift */,
 				B417ACC52851A5620007FE8B /* PasswordSecureField.swift */,
+				B417ACCC2851C28D0007FE8B /* UserTextField.swift */,
 			);
 			path = TextFields;
 			sourceTree = "<group>";
@@ -334,6 +337,7 @@
 			files = (
 				B417ACC22850EDEA0007FE8B /* EmailTextField.swift in Sources */,
 				B417ACBF2850E7EC0007FE8B /* CustomTextField.swift in Sources */,
+				B417ACCD2851C28D0007FE8B /* UserTextField.swift in Sources */,
 				B417ACB9285071F10007FE8B /* SignupView.swift in Sources */,
 				B417ACBD285075A50007FE8B /* LogoView.swift in Sources */,
 				B417ACC62851A5630007FE8B /* PasswordSecureField.swift in Sources */,
