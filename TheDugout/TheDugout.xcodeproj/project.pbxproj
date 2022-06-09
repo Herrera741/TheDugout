@@ -18,6 +18,10 @@
 		B417ACB9285071F10007FE8B /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACB8285071F10007FE8B /* SignupView.swift */; };
 		B417ACBB285072AD0007FE8B /* BackgroundGradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACBA285072AD0007FE8B /* BackgroundGradientView.swift */; };
 		B417ACBD285075A50007FE8B /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACBC285075A50007FE8B /* LogoView.swift */; };
+		B417ACBF2850E7EC0007FE8B /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACBE2850E7EC0007FE8B /* CustomTextField.swift */; };
+		B417ACC22850EDEA0007FE8B /* EmailTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACC12850EDEA0007FE8B /* EmailTextField.swift */; };
+		B417ACC42850F15F0007FE8B /* CustomSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACC32850F15F0007FE8B /* CustomSecureField.swift */; };
+		B417ACC62851A5630007FE8B /* PasswordSecureField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B417ACC52851A5620007FE8B /* PasswordSecureField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		B417ACB8285071F10007FE8B /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 		B417ACBA285072AD0007FE8B /* BackgroundGradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundGradientView.swift; sourceTree = "<group>"; };
 		B417ACBC285075A50007FE8B /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		B417ACBE2850E7EC0007FE8B /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		B417ACC12850EDEA0007FE8B /* EmailTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmailTextField.swift; sourceTree = "<group>"; };
+		B417ACC32850F15F0007FE8B /* CustomSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSecureField.swift; sourceTree = "<group>"; };
+		B417ACC52851A5620007FE8B /* PasswordSecureField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PasswordSecureField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +172,7 @@
 		B417ACB62850719F0007FE8B /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				B417ACC02850EDAD0007FE8B /* TextFields */,
 				B417ACBA285072AD0007FE8B /* BackgroundGradientView.swift */,
 				B417ACBC285075A50007FE8B /* LogoView.swift */,
 			);
@@ -177,6 +186,17 @@
 				B417ACB8285071F10007FE8B /* SignupView.swift */,
 			);
 			path = Authentication;
+			sourceTree = "<group>";
+		};
+		B417ACC02850EDAD0007FE8B /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				B417ACBE2850E7EC0007FE8B /* CustomTextField.swift */,
+				B417ACC12850EDEA0007FE8B /* EmailTextField.swift */,
+				B417ACC32850F15F0007FE8B /* CustomSecureField.swift */,
+				B417ACC52851A5620007FE8B /* PasswordSecureField.swift */,
+			);
+			path = TextFields;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -309,11 +329,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B417ACC22850EDEA0007FE8B /* EmailTextField.swift in Sources */,
+				B417ACBF2850E7EC0007FE8B /* CustomTextField.swift in Sources */,
 				B417ACB9285071F10007FE8B /* SignupView.swift in Sources */,
 				B417ACBD285075A50007FE8B /* LogoView.swift in Sources */,
+				B417ACC62851A5630007FE8B /* PasswordSecureField.swift in Sources */,
 				B417ACB52850715E0007FE8B /* LoginView.swift in Sources */,
 				B417AC8A28505AF20007FE8B /* ContentView.swift in Sources */,
 				B417ACBB285072AD0007FE8B /* BackgroundGradientView.swift in Sources */,
+				B417ACC42850F15F0007FE8B /* CustomSecureField.swift in Sources */,
 				B417AC8828505AF20007FE8B /* TheDugoutApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
